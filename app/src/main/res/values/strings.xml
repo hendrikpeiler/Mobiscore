@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Mobiscore</string>
+    <string name="mobility_score_label">Mobiscore: %s</string>
+    <string name="ok">OK</string>
+    <string name="default_mobiscore">Mobiscore berechnen</string>
+    <string name="infotext">Der Mobility Score beschreibt anhand einer Skala von 1-100 Punkten, wie mobil eine Person an ihrem Standort ist. Hierbei wird die Verfügbarkeit des öffentlichen Personennahverkehr und Leihrädern geprüft. Die genauere Berechnung des Scores erfolgt auf Basis von Entfernung und Anzahl der jeweiligen Verkehrsmittel. Der ÖPNV und die Leihräder sind in der Berechnung gleichgewichtet (50:50) und können individuell mittels eines Schiebereglers angepasst werden, sodass einer der beiden Verkehrsmodi höher gewichtet wird.</string>
+</resources>

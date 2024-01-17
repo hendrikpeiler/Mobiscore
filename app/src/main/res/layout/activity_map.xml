@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <org.osmdroid.views.MapView
+        android:id="@+id/mapId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- LinearLayout für den Button am unteren Bildschirmrand -->
+    <LinearLayout
+        android:id="@+id/layoutCalculateMobiscore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/btnMoveToCurrentLocation"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_gravity="center_vertical|end"
+            android:foreground="@mipmap/ic_gps"
+            android:backgroundTint="@color/white"
+            android:text=""
+            />
+
+        <Button
+            android:id="@+id/btnCalculateMobiscore"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:text="@string/default_mobiscore"
+            android:textSize="28sp"
+            android:backgroundTint="@color/pink"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnOpenMenu"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:foreground="@mipmap/ic_menu_square"
+            android:backgroundTint="@color/white"
+            android:text=""
+            />
+    </LinearLayout>
+
+</RelativeLayout>
